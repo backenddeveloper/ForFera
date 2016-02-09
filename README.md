@@ -11,8 +11,9 @@ the program will output
 5 
 
 this is because 5 changes are the minimum number of changes required to make the sentence valid.
-the quivk browb fpx jymps ober the lazy cog
-*** ***c* ****n *o* *u*** *v** *** **** ***
+
+    the quivk browb fpx jymps ober the lazy cog
+    *** ***c* ****n *o* *u*** *v** *** **** ***
 
 ** it doesn't matter whether the corrected sentence makes sense or not, just that all of the changed words are in the supplied word list. Note that cog is not changed in this example as it is already a valid word.
 
@@ -26,7 +27,7 @@ Your program will take a single parameter, the path to the file name containing 
 
 The input file will contain text entirely in lower case seperated by one or more space characters, there will be no other characters. The file might end with a new line character.
 
-Example input file:
+Example input file contents:
 
     the quivk browb fpx jymps ober the lazy cog
 
