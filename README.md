@@ -1,3 +1,26 @@
+###This is the solution to a technical challange posed by the Food Evaluation and Research Agency.
+
+This python3 project depends on the python-levenshtein module.
+
+This can be installed with:
+```python
+    virtualenv -p /usr/bin/python3.4 environment
+    source environment/bin/activate
+    pip install python-levenshtein
+```
+
+To test run:
+```python
+    python -m unittest discover tests '*.py'
+```
+
+To start run:
+```python
+    python . <sentance filename>
+```
+
+###The original challange instructions:
+
 For this challenge you need to write a program that checks an input file for it's similarity to actual words.
 
 You will be given a fixed word list and your program will recieve a single parameter - a path to a text file, it will output a single number equal to  the number of changes required to make that file contain only valid words. 
